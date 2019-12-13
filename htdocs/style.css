@@ -1,23 +1,37 @@
 
+p{
+  font-size:40px;
+  text-align:center;
+}
+p.ex{
+  font-size:40px;
+  font-weight:bold;
+  color:#EE0000;
+  text-align:left;
+
+}
+
+
 ul {
 	list-style-type: none;
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	overflow: hidden;
 	background-color: #1b2538;
 }
 li {
-	float: left;
+  float: left;
 	border-right: 1px solid #bbbbbb;
 }
 li:last-child {
-	border-right: none;
+  border-right: none;
 }
+
 li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 16px 40px;
 	text-decoration: none;
 }
 li a:hover:not(.active) {
@@ -30,37 +44,44 @@ li a:hover:not(.active) {
 
 body {
   color: black;
-  background-color:#FFFFFF;
   font-family:Meiryo;
   font-size:20px;
+  background-color:#FFFFFF;
   border:20px #FFA07A solid;
   margin:0px;
 
 }
 
 
-
-
-
 div.shop{
   background:#EEEEEE;
-  width: 800px;
-  margin:15px;
-  padding:20px;
+  width: 80vw;
+  margin:20px 50px;
+  padding:30px 40px;
+  position:relative;
   }
 
-p {
-  font-size: 30px;
-
+p.shop {
+  font-size: 35px;
+  font-weight:bold;
+  text-align:center;
 }
 
-img{
-  
+p.intro{
+  font-size: 25px;
+  text-align: center;
 }
 
-table{
-  text-align: left;
+img {
+  position:absolute;
+  right:45px;
+  bottom:45px;
+
+  width: 280px;
+  height:210px;
 }
+
+
 
 table td{
   padding:1px 15px;
