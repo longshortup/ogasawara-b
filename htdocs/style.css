@@ -81,7 +81,9 @@ img {
   height:210px;
 }
 
-
+div.photo{
+  text-align: center;
+}
 
 table td{
   padding:1px 15px;
