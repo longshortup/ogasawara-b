@@ -57,8 +57,8 @@ div.shop{
   background:#EEEEEE;
   width: 80%;
   margin:3% 5%;
-  padding:3% 5%;
-  position:relative;
+  padding:2% 5%;
+ 
   }
 
 p.shop {
@@ -73,7 +73,7 @@ p.intro{
 }
 
 img {
-  position:absolute;
+  
   right:45px;
   bottom:45px;
 
